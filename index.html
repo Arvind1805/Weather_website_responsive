@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="weather.js" defer></script>
+    <title>Weather_Result</title>
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" class="searchbar" placeholder="enter the city">
+            <button><i class='bx bx-search'></i></button>
+        </div>
+        <div class="weather loading">
+            <h2 class="city">Weather in Kuppam</h2>
+            <h1 class="temp">45°C</h1>
+            <div class="flex">
+                <img src="https://openweathermap.org/img/wn/02n.png" class="icon"></img>
+                <div class="description">Cloudy</div>
+            </div><hr class="hr">
+            <div class="humidity">Humidity: 60%</div><hr class="hr">
+            <div class="wind">Wind speed: 6.2 km/h</div>
+        </div>
+    </div>
+</body>
+</html>
